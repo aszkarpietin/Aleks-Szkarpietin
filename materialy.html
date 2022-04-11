@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Aleks Szkarpietin - Kontakt</title>
+<title>Aleks Szkarpietin - Materiały</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -10,18 +10,15 @@
 <tr valign="middle" align="center">
 	<td width="20%"><a href="index.html" class="menu">Strona Główna</a></td>
 	<td width="20%"><a href="korepetycje.html" class="menu">Korepetycje</a></td>
-	<td width="20%"><a href="materialy.php" class="menu">Materiały</a></td>
+	<td width="20%"><a href="materialy.html" class="menu">Materiały</a></td>
 	<td width="20%"><a href="cv.html" class="menu">CV</a></td>
 	<td width="20%"><a href="kontakt.html" class="menu">Kontakt</a></td>
 </tr>
 </table>
-<p>
-<h1>Skontaktuj się ze mną:</h1>
-<ul>
-<li>Email: <a href="mailto:aszkarpietin2001@gmail.com">aszkarpietin2001@gmail.com</a></li>
-<li>Tel.: <a href="tel:+48515047884">515-047-884</a></li>
-<li>Facebook: <a href="https://www.facebook.com/aleks.szkarpietin" target="_blank">Aleks Szkarpietin</a></li>
-</ul>
-</p>
+<form action="admin.php" method="POST">
+	<input type="text" name="nazwa" placeholder="Nazwa użytkownika" size="20"><br />
+	<input type="password" name="haslo" placeholder="Hasło" size="20"><br />
+	<button type="submit">Zaloguj</button>
+</form>
 </body>
 </html>
