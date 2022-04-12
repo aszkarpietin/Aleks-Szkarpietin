@@ -9,6 +9,7 @@
 	background-color: #1a2a36;
 	font-size: 15px;
 	font-family: Lucida Sans Unicode;
+	border-radius: 15px;
 }
 a:link
 {
@@ -42,6 +43,7 @@ h1
 	background-color: #70aee4;
 	font-size: 30px;
 	font-family: Lucida Sans Unicode;
+	border-radius: 15px;
 }
 h2
 {
@@ -50,6 +52,7 @@ h2
 	background-color: #70aee4;
 	font-size: 25px;
 	font-family: Lucida Sans Unicode;
+	border-radius: 15px;
 }
 .tekst
 {
@@ -58,6 +61,7 @@ h2
 	background-color: #70aee4;
 	font-size: 20px;
 	font-family: Lucida Sans Unicode;
+	border-radius: 15px;
 }
 .tekst1
 {
@@ -67,6 +71,7 @@ h2
 	background-color: #70aee4;
 	font-size: 20px;
 	font-family: Lucida Sans Unicode;
+	border-radius: 15px;
 }
 ul
 {
@@ -75,6 +80,7 @@ ul
 	background-color: #70aee4;
 	font-size: 20px;
 	font-family: Lucida Sans Unicode;
+	border-radius: 15px;
 }
 body
 {
